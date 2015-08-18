@@ -1,5 +1,8 @@
 %p= @note.status
 %p= @note.link
+%p
+  Posted by
+  = @note.user.name
 
 = link_to 'Home', root_path, class: 'btn btn-default'
 = link_to 'Edit', edit_note_path(@note), class: 'btn btn-primary'

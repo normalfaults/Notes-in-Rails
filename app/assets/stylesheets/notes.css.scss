@@ -1,3 +1,102 @@
 // Place all the styles related to the Notes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: "Proxima Nova";
+	font-weight: 100;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+header {
+	width: 100%;
+	padding: 2rem 0;
+	border-bottom: 1px solid #E4E4E4;
+	width: 100%;
+	padding: 2rem 0;
+	border-bottom: 1px solid #E4E4E4;
+	#navbar-brand {
+		float: left;
+		font-size: 1.75rem;
+		a {
+			color: #333233;
+			text-decoration: none;
+			&:hover {
+				color: #50A7C7;
+			}
+		}
+	}
+	nav {
+		float: right;
+		a {
+			margin-left: 1.5rem;
+			line-height: 2;
+			color: #9B9B9B;
+			text-decoration: none;
+			&:hover {
+				color: #50A7C7;
+			}
+		}
+	}
+}
+
+p.status {
+    background-color: #f3f3f3;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #848484;
+    border: 1px solid #CEC7C7;
+    width: 90%;
+}
+
+p.link .btn {
+    padding: 15px 24px;
+    background-color: transparent;
+    color: #428bca;
+}
+
+textarea#note_status {
+    margin: 0px;
+    width: 794px;
+    height: 102px;
+}
+
+input#note_link {
+    width: 50%;
+    height: 40px;
+    margin-top: 5px;
+}
+p.userName {
+    font-size: 20px;
+    font-weight: 300;
+}
+p.userName {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a.navbar-link.navbar-right.NewNote {
+    background-color: #0077A9;
+    color: white;
+    transition: 0.6s;
+}
