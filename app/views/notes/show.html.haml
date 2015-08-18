@@ -1,6 +1,6 @@
 %p= @note.status
 %p= @note.link
 
-= link_to 'Homegit', root_path, class: 'btn btn-default'
+= link_to 'Home', root_path, class: 'btn btn-default'
 = link_to 'Edit', edit_note_path(@note), class: 'btn btn-primary'
 = link_to 'Destroy', note_path(@note), method: :delete, data: { confirm: 'Are you sure' },  class: 'btn btn-danger'
